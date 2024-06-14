@@ -1,0 +1,19 @@
+.car-detail {
+    padding: 20px;
+  }
+  
+  .car-detail-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .car-detail-name {
+    font-size: 2em;
+    margin: 20px 0;
+  }
+  
+  .car-detail-description {
+    color: #555;
+  }
+  
