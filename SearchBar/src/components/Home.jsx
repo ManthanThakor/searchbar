@@ -68,8 +68,8 @@ const Home = () => {
 
   return (
     <div>
-      <section className="car-section">
-        <AutoSuggest
+        <div className="AUTO">
+            <AutoSuggest
           suggestions={suggestions}
           onSuggestionsFetchRequested={onSuggestionsFetchRequested}
           onSuggestionsClearRequested={onSuggestionsClearRequested}
@@ -78,6 +78,9 @@ const Home = () => {
           inputProps={inputProps}
           onSuggestionSelected={onSuggestionSelected}
         />
+        </div>
+      <section className="car-section">
+    
         {cars.map((car, index) => (
           <div key={index} className="car-card">
             <img src={car.image} alt={car.name} className="car-image" />
